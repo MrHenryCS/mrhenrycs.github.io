@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Video Tame 1 Games</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../style.css" rel="stylesheet">
+</head>
+
+<header>
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/vg1">Video Game 1</a></li>
+            <li><a href="/vg2">Video Game 2</a></li>
+            <li><a href="/mmwd">Multimedia Web Design</a></li>
+            <li><a href="/h-programming">Honors Programming</a></li>
+            <li><a href="/apcsa">AP Computer Science A</a></li>
+        </ul>
+        <p class="vericaltext">
+            CLASSES
+        </p>
+    </nav>
+</header>
+
+<body>
+    <div style="text-align: center;">
+        <img src="/images/vg1-Banner.png" width="100%" />
+        <h1>Intro to Programming and Video Games</h1>
+        <h2>Mr. Henry Room 211</h2>
+    </div>
+
+    <p>We have been hard at work learning the <a href="https://godotengine.org/" target="_blank">Godot game engine</a>
+        and coding in a language similar to Python. The games below were all made by by students.</p>
+
+    <p>Games that were made following a tutorial will only have one playable version as they will nearly all be the
+        same. Games that allowed student choice in design will have many versions to play.</p>
+
+    <p>If this looks like fun and you want to learn to code join me next year!</p>
+
+    <div id="code-block">
+<span style="color: yellow;">@onready</span> <span style="color: orange;">var</span> Player = <span
+    style="color: #0088ff;">preload</span>(<span style="color: yellow;">"res://interested_student.tscn"</span>)
+
+<span style="color: orange;">func</span> _ready():
+<span style="color: orange;">var</span> new_player = Player.<span style="color: #0088ff;">instansiate</span>()
+new_player.<span style="color:lightblue;">position</span> = <span style="color: yellow;">"Room 211"</span>
+new_player.<span style="color:#0088ff;">create_games</span>()
+<span style="color: #0088ff;">print</span>(<span style="color: yellow;">"This is fun!"</span>)
+    </div>
+
+    <hr>
+    <h2 style="text-align: center">Click any of the pictures below to play the game</h2>
+
+    <table style="width: 95%;text-align: center;">
+        <tbody>
+            <tr>
+                <td>
+                    <a href="./donuts" target="_blank"><img src="./images/donuts.png" width=100%></a>
+                    <p>Eat the Doughnut</p>
+                </td>
+                <td>
+                    <a href="./keyboard" target="_blank"><img src="./images/keyboard.png" width=100% /></a>
+                    <p>Keyboard</p>
+                </td>
+                <td>
+                    <a href="./whack-a-mole" target="_blank"><img src="./images/mole.png" width=100% /></a>
+                    <p>Whack-a-Mole</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./blades" target="_blank"><img src="./images/blades.png" width=100% /></a>
+                    <p>Dodge the Blades</p>
+                </td>
+                <td>
+                    <a href="./space-shooter" target="_blank"><img src="./images/space.png" width="100%"></a>
+                    <p>Space Shooter</p>
+                </td>
+                <td>
+                    <a href="./pong" ><img src="./images/pong.png" width=100% /></a>
+                    <p>Pong</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./brick-breaker"><img src="./images/brick-breaker.png" width=100% /></a>
+                    <p>Brick Breaker</p>
+                </td>
+                <td>
+                    <a href="./clicker"><img src="./images/clicker.png" width=100% /></a>
+                    <p>Clicker Game</p>
+                </td>
+                <td>
+                    <a href="./scroller"><img src="./images/scroller.png" width=100% /></a>
+                    <p>Infinite Scroller</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./minigolf"><img src="./images/golf.png" width=100% /></a>
+                    <p>Minigolf</p>
+                </td>
+                <td>
+                    <a href=""><img src="" width=100% /></a>
+                    <p>Vampire Survivor Like</p>
+                </td>
+                <td>
+                    <a href=""><img src="" width=100% /></a>
+                    <p>2D Zelda Like</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
