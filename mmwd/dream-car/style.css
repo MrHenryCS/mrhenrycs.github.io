@@ -1,0 +1,242 @@
+/* General Reset */
+body {
+    margin: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+#banner-section {
+    height: 100vh;
+    background-image: url('https://codehs.com/uploads/c14adf67781365b5929bb478ad34ccdf');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+#banner-section h1 {
+    font-size: 4rem;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+#banner-section p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+.center {
+    text-align: center;
+}
+
+/* Buy Button */
+.buy-button {
+    display: inline;
+    z-index: 10;
+   
+    padding: 10px 20px;
+    position: sticky;
+    top: 10px;
+    background-color: #ff4500;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #e63900;
+    transform: scale(1.1);
+    
+}
+
+/* Featured Car Section */
+#featured-car {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-top: 5px solid #ff4500;
+    overflow: hidden;
+}
+
+#featured-car img {
+    max-width: 100%;
+    border: 5px solid #ddd;
+    margin: 20px auto;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+#featured-car img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.car-description {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.car-description h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.car-description p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Features Section */
+#features {
+
+    padding: 50px;
+    background-color: #fff;
+}
+
+
+.feature-box {
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 600px;
+    /*height: 150px;*/
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    background-size: cover;
+    color: white;
+
+    /* Used to make image faded */
+    background-color: rgba(255,255,255,1);
+    background-blend-mode: lighten;
+}
+
+.feature-box h3 {
+   font-size: 1.8rem;
+   margin-bottom: 10px;
+   color: black;
+}
+
+.feature-box p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.feature-box:hover {
+    background-color: rgba(255,255,255,0.8);
+    color: white;
+}
+
+.performance {
+    background-image: url("https://codehs.com/uploads/6b1668d3c6bfb428aadb522fa91d8ceb");
+    background-position: center;
+}
+
+
+.interior {
+    background-image: url("https://codehs.com/uploads/9d2e836b779d1bfc8bc2c87c7c63890c");
+    background-position: center;
+}
+
+.innovation {
+    background-image: url("https://codehs.com/uploads/1f8c73a9fd3991da3b9ab536ab27b298");
+    background-position: center;
+}
+
+
+
+/* Gallery Section */
+#gallery {
+    position: relative;
+    padding: 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    transition: all 1s ease-in-out 0.2s;
+    overflow: clip;
+}
+
+#gallery:hover {
+    height: 400px;
+}
+
+
+.thumb {
+    display: inline-block;
+    max-width: 50px;
+    opacity: 0.7;
+    margin: 10px;
+    border: 5px solid #ddd;
+    transition: all 1.2s ease;
+    overflow: clip;
+}
+
+.thumb:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.full-size {
+    position: absolute;
+    top: auto;
+    left: 10%;
+    margin: auto;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+/* This ~ allows you to select any sibling element */
+#blueT:hover ~ #blueF{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+/* This ~ allows you to select any sibling element */
+#blackT:hover ~ #blackF{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+/* This ~ allows you to select any sibling element */
+#whiteT:hover ~ #whiteF{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+/* Footer Section */
+#footer {
+    /*width: 600px;*/
+    margin: auto;
+    padding: 30px;
+    background-color: #555;
+    color: white;
+    text-align: center;
+}
+
+#footer .social-icons a {
+    color: #ff4400;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#email {
+    color: #ff4400;
+    text-decoration: none;
+    margin: 0 5px;
+}
