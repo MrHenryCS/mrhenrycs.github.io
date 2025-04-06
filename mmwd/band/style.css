@@ -1,44 +1,7 @@
-* {
-    box-sizing: border-box;
-}
-
-/*Adds a little extra space around the "MENU" links*/
-#menu {
-    position: fixed;
-    top:0px;
-    left:0px;
-    width:100%;
-    background-color: darkgreen;
-}
-
-#menu a{
-    display: inline-block;
-
-    margin: 10px auto;
-    padding: 5px;
-    
-    color:lightslategrey;
-    background-color: greenyellow;
-    border:2px solid white;
-    border-radius: 5px;
-    
-}
-
-#menu a:hover{
-color:white;
-background-color:lightgreen;
-}
-
-.pad {
-    scroll-margin-top: 60px;
-}
-
 body {
-    font-family: Verdana, sans-serif;
-    background-color: #adffaf; /*change this color*/
+    font-family: Impact, Fantasy;
+    background-color: white; /*change this color*/
     text-align: center;
-    font-size:15px;
-    position: relative;
 }
 
 #header-image {
@@ -54,23 +17,24 @@ body {
   color: white;
   display: table;
   text-align: center;
-  font-size: 45px;
+  font-size: 85px;
+
 }
 
-#header-image p{
-margin-top:90px;
+/*Adds a little extra space around the "MENU" links
+To use this add an id="menu" to your menu table*/
+#menu td{
+    padding: 15px;
 }
 
-
-
-/*Makes images shrink to fit size of object*/
+/*Makes images shrink to fit size of page*/
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 20px; /*adds a little corner curve */
+    border-radius: 10px; /*adds a little corner curve */
 }
 
-
+/*Changes the style of the tables*/
 table, tr, td {
     margin: auto;/*centers table left-right */
     border:2px solid darkgreen; /*changes the border style*/
