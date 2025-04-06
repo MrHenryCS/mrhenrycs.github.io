@@ -20,6 +20,8 @@ html {
     transition: left 0.3s linear;
 }
 
+
+
 #nav-menu img{
     float: right;
     top: 0px;
@@ -33,6 +35,11 @@ html {
 #nav-menu li{
     font-size: 18px;
     line-height: 30px;
+    list-style: none;
+}
+
+#nav-menu li a:visited{
+    color:#fff;
 }
 
 /*The 'classes' vertical text */
