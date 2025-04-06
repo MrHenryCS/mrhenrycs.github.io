@@ -86,7 +86,7 @@ a {
 }
 
 a:visited {
-    color: lightblue;
+    color: rgb(73, 203, 246);
 }
 
 ul {
@@ -109,4 +109,13 @@ ul {
   font-family: monospace;    /* monospaced font for code */
   white-space: pre;          /* preserve formatting, like line breaks and spaces */
    overflow-x: auto; 
+}
+
+.game-image{
+    width: 30%;
+}
+
+.game-links{
+    width: 70%;
+    vertical-align: middle;
 }
