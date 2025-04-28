@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <title>Forms Review</title>
+    </head>
+      
+    <body>
+        <section id="overlay">
+            <form action="submitted.html" method="POST">
+                <!-- CODE COES HERE -->
+                <h1>Airline Ticket Form</h1>
+                <label for="name">Name on Tickets?</label>
+    			    <input type="text" name="yourname" id="yourname" required>
+    			<br>
+    			<label for="email">Your Email?</label>
+    			    <input type="text" name="email" id="email" required>
+    			<br>
+    		    <label for="ticket">Number of Tickets?</label>
+    			    <input type="number" name="tickets" id="tickets" min="1" max="10" required>
+    			<br>
+            		<section class="Classtype">
+                <label for="class">What Class would you like?</label>
+                    <select name="class" id="class">
+                        <option value="firstclass">First Class</option>
+                        <option value="business">Business</option>
+                        <option value="economy">Economy</option>
+                    </select>
+                    </section>
+                <section class="Placement">
+                    <label for="Placement">Isle-Window Prefrence?</label>
+                <br>
+                    <span>Isle</span>
+                        <input type="range" name="prefrence" id="prefrence" value="3" min="1" max="4">
+                    <span>Window</span>
+                </section>
+                <section class="extras">
+                    <span>What extras would you like?</span>
+                <br>
+                    <input type="checkbox" name="Extra Pillow" id="Extra Pillow" value="Extra Pillow">
+                        <label for="pillow">Extra Pillow</label>
+                    <input type="checkbox" name="Headphones" id="Headphones" value="Headphones">
+                        <label for="headphones">Headphones</label>
+                    <input type="checkbox" name="Snacks" id="Snacks" value="Snacks">
+                        <label for="snacks">Snacks</label>
+                </section>
+                <span>What type of trip would you like?</span>
+                <input type="radio" name="oneway" id="oneway" value="oneway">
+                        <label for="trip type">Oneway</label>
+                    <input type="radio" name="roundtrip" id="roundtrip" value="roundtrip">
+                        <label for="triptype">Roundtrip</label>
+                <br>
+                <label for="meal">What type of meal would you like?</label>
+                <input list="meals" id="meal" name="meal">
+                <datalist id="meal">
+                    <option value="Chicken">Chicken</option>
+                    <option value="Beef">Beef</option>
+                    <option value="Vegan">Vegan</option>
+                </datalist>
+                <section class="submission">
+                    <input type="submit" value="Submit">
+                
+                
+            </form>
+        </section>
+    </body>
+</html>

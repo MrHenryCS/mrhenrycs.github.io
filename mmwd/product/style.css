@@ -1,0 +1,44 @@
+body {
+    font-family: "Lucida Console";
+    background-color: #CBC3E3; /*change this color*/
+    text-align: center;
+}
+
+
+p {
+  font-family: "Lucida Console";
+  color: #301934;
+}
+
+h2{
+   color: #301934; 
+}    
+
+/*Adds a little extra space around the "MENU" links
+To use this add an id="menu" to your menu table*/
+#menu td{
+    padding: 15px;
+}
+
+/*Makes images shrink to fit size of page*/
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px; /*adds a little corner curve */
+}
+
+/*Changes the style of the tables*/
+table, tr, td {
+    font-family: "Lucida Console";
+    margin: auto;/*centers table left-right */
+    border:2px solid #F5F5DC; /*changes the border style*/
+    padding: 10px;
+    border-collapse: collapse; /*Makes single Border*/
+    color: #301934;
+}
+
+
+/*Used to center my album image*/
+.center {
+    text-align:center;
+}

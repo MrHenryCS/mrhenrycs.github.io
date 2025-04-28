@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Sale</title>
+      <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+      <form action="thanks.html" method="POST">
+      <p>
+        links and other things to be able to purchase this product
+      </p>
+      
+      <form>
+       <label for="name">User Name:</label>
+       <input id="name" name="name" type="text" required>
+       <br>
+       <label for="address">User Address:</label>
+       <input id="address" name="address" type="text" required>
+       <br>
+       <label for="number">Amount:</label>
+       <input id="number" name="number" type="number" required>
+       <hr>
+       <span>Shipping</span>
+       <br>
+       <label for="Expidite">Expidite Shipping, $9.85</label>
+       <input id="Exipidite" name="Shipping" type="Radio" required>
+       <label for="Regular">Regular Shipping, $5.64</label>
+       <input id="Regular" name="Shipping" type="Radio" required>
+       <hr>
+       <label for="add-ons">Add-ons:</label>
+       <input id="add-ons" name="add-ons" type="range" min="1" max="3" required>
+       <br>
+       <label for="Heard">How did you hear about us?</label>
+       <select id="Heard" required>
+         <option value="Advertisements">Advertisements</option>
+         <option value="Social Media">Social Media</option>
+         <option value="Family/Friend">Family/Friend</option>
+         <option value="Other">Other</option>
+       </select>
+       <br>
+       <input type="submit" value="Confirm Purchase">
+      </form>
+      
+      <a href="index.html">Back to home</a>
+    </body>
+  </html>
