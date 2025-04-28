@@ -1,0 +1,89 @@
+body{
+    font-family:Tahoma;
+    font-size:19px;
+    background-color:white;
+    color:black;
+}
+
+#main-header{
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-size:20px;
+}
+
+#nav-menu{
+    margin:auto;
+}
+
+#nav-menu tr td a {
+    color:white;
+    margin-right: 15px;
+    font-size:19px;
+    text-decoration: none
+}
+
+.info-section{
+    margin:24px;
+}
+
+.info-section{
+   background-color:lightpink;
+   border-radius:30px;
+   padding:10px;
+}
+
+.info-section h2{
+   text-align:center; 
+}
+
+.contestant{
+    border-left:10px solid darkgrey;
+    padding:5px;
+    margin:10px;
+}
+
+.contestant h3{
+    font-size:28px;
+    color:MediumOrchid;
+}
+
+.contestant p{
+    padding-left:15px;
+}
+
+#episodes{
+    background-color:LightSteelBlue;
+}
+
+.episode-item{
+    border-bottom:3px dashed darkgrey;
+    padding:10px;
+    list-style:none;
+}
+
+#news{
+    background-color:PaleTurquoise;
+}
+
+.news-item{
+    margin:20px;
+    padding:8px;
+    background-color:MediumTurquoise;
+    border-radius:20px;
+}
+
+.news-item h3{
+    font-size:25px;
+}
+
+#footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-size:17px;
+}
+
+#footer a{
+    color:white;
+}
