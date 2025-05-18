@@ -1,0 +1,116 @@
+body {
+    font-family: "Gill Sans";
+}
+
+p {
+    font-family: "Avant Garde";
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Gill Sans"
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Gill Sans"
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #F4F9FF;
+    padding: 5px;
+    border: 3px #CF0E0E dotted;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    background-color: #CF0E0E;
+    border: 3px white solid;
+    padding: 15px;
+    color: white;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+    background-color: #CF0E0E;
+    text-align: center;
+}
+
+li .socials {
+    background-color: none;
+    border: none;
+    padding: none;
+    margin: 15px;
+    display: inline-block;
+}
+
+img {
+    width: 90%;
+    border-radius: 40px;
+    margin: 10px;
+    margin: auto;
+}
+
+.green {
+    background-color: #008C45;
+    color: #E5F6DF;
+    padding: 10px;
+    border-radius: 40px;
+    display: block;
+    text-align: center;
+}
+
+.darkgreen {
+    background-color: #06402B;
+    color: #E5F6DF;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.white {
+    background-color: #F4F9FF;
+    color: #444444;
+    padding: 10px;
+    border-radius: 40px;
+    display: block;
+    text-align: center;
+}
+
+.red {
+    background-color: #CF0E0E;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    display: block;
+    text-align: center;
+}
+
+footer ul {
+    background-color: none;
+    border: none;
+    padding: none;
+    margin: 15px;
+    display: inline-block;
+}
+
+footer ul li {
+    background-color: none;
+    border: none;
+    padding: none;
+    margin: 15px;
+    display: inline-block;
+}
