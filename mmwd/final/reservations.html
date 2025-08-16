@@ -1,0 +1,81 @@
+<html></html>
+    <head>
+      <title>Yoshi's Resort</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav>
+            <img src="./images/question-egg.png" alt="question egg"> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="reservations.html">Reservation</a></li>
+            </ul>
+        </nav>
+        
+        <section id="reservation">
+            <form action="thankyou.html" method="POST">
+               <h1>Yoshi's Resort Reservation!</h1>
+               <label for="name">Name</label>
+               <input id="name" type="text" name="name" required>
+               <br
+               <label for="email-address">Email Address</label>
+               <input id="email-address" type="text" name="email-address" required>
+               <br>
+               <label for="i-date">Check-In Date:</label>
+               <input id="i-date" type="date" name="i-date" required>
+               <br>
+               <label for="o-date">Check-Out Date:</label>
+               <input id="o-date" type="date" name="o-date" required>
+               <br>
+               <label for="num-1">Total Tickets:</label>
+               <input id="num-1" name="num-1" type="number" min="1" max="10" required>
+               <hr>
+               <br>
+               <label for="room-preferance">Room Preferance</label>
+                    <select id="room-preferance" name="room-preferance" required>
+                        <option value="standard">Standard</option>
+                        <option value="luxery">Luxery</option>
+                    </select>
+              <br>
+              <br>
+              <label for="extras">Any Extras?</label>
+              <br>
+              <input type="checkbox" name="extra" id="pillows" value="pillows">
+              <label for="pillows">Pillows</label>
+              <input type="checkbox" name="extra" id="fast-pass" value="fast-pass">
+              <label for="fast-pass">Fast-Pass</label>
+              <input type="checkbox" name="extra" id="room-service" value="room-service">
+              <label for="room-service">Room Service</label>
+              <br>
+              <br>
+               <span>Would You Like The Meal Pass?:</span>
+            <input id="yes" type="radio" name="answer" value="yes" required>
+            <label for="yes">Yes Please!</label>
+            <input id="no" type="radio" name="answer" value="no" required>
+            <label for="no">No Thanks</label>
+            <br>
+            <br>
+            <label for="feedback">Anything Else We Should Know?</label>
+            <br>
+            <textarea id="feedback" name="feedback"></textarea>
+            <br>
+            <br>
+            <label for="seat-preferance">How Excited Are You?</label>
+              <br>
+              <span>Excited</span>
+              <input type="range" name="excited" id="excited" value="1" min="1" max="4">
+              <span>SUPER EXCITED!</span>
+              <br>
+              <br>
+        <input type="submit" value="Purchase Tickets">
+                
+                <img src="https://codehs.com/uploads/16ba6fb4aa7499e4e19dfb541c6b7334" alt="yoshi" 
+                
+            </form>
+        </section>
+    </body>

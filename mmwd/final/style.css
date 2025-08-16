@@ -1,0 +1,125 @@
+body {
+ font-family:courier;
+ color:#F8DA53;
+ background:#FBF7E3;
+ font-size:20px;
+}
+nav {
+    position:fixed;
+    top: 0px;
+    left: -189px;
+    width: 150px;
+    z-index: 10;
+    transition: left 0.3s linear;
+    text-align:center;
+    padding:20px;
+    margin:20px;
+}
+nav:hover {
+    left:-35px;
+}
+nav li {
+    font-size:18px;
+}
+nav img {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+
+     margin-top:25px;
+     width:100px;
+}
+nav a {
+    display:inline-block;
+    border-radius:5px;
+    color:#F9E658;
+    border:3px #F9E658 solid;
+    background:#45CA11;
+    
+}
+nav a:hover {
+    background:#F9E658;
+    border:3px #45CA11 solid;
+    color:#45CA11;
+}
+h1 {
+   text-align:center;
+   border: solid black 1px;
+   border-radius: 5px;
+   color:#67CF0B;
+   background:#F8DA53;
+}
+h2 {
+   text-align:center;
+   border: solid black 1px;
+   border-radius: 5px;
+   color:#67CF0B;
+   background:#F8DA53;
+}
+p {
+    text-align:center;
+}
+#about img {
+    width:500px;
+    height:500px;
+    margin:auto;
+    display:block;
+}
+#food img {
+    margin:auto;
+    display:block;
+}
+#reservation {
+    background:#67CF0B;
+    text-align:center;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+ p {
+    border-radius:5px;
+    border: solid black 1px;
+    background:#67CF0B;
+}
+table {
+  text-align: center;
+  margin: 20px auto;
+}
+th {
+  border: 2px solid #F8DA53;
+  background:#67CF0B;
+}
+td {
+  border: 2px solid #F8DA53;
+  width: 300px;
+  background:#67CF0B;
+}
+#signature-events h1 {
+   border: solid black 1px;
+   border-radius: 5px;
+   color:#67CF0B;
+   background:#F8DA53;
+}
+#special-events h1 {
+   border: solid black 1px;
+   border-radius: 5px;
+   color:#67CF0B;
+   background:#F8DA53;
+}
+#event-description h1 {
+   border: solid black 1px;
+   border-radius: 5px;
+   color:#67CF0B;
+   background:#F8DA53;
+}
+#event-description ul li {
+   border: solid black 1px;
+   border-radius: 5px;
+   color:#F8DA53;
+   background:#67CF0B;
+}
+#about h1 {
+     border: solid black 1px;
+   border-radius: 5px;
+   color:#67CF0B;
+   background:#F8DA53;
+}
